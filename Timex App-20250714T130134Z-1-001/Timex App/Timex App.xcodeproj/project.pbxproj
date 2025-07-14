@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081C0DC72DBB7AEB00D88EF4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DC62DBB7AEB00D88EF4 /* FirebaseAnalytics */; };
+		081C0DC92DBB7AEB00D88EF4 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DC82DBB7AEB00D88EF4 /* FirebaseAnalyticsOnDeviceConversion */; };
+		081C0DCB2DBB7AEB00D88EF4 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DCA2DBB7AEB00D88EF4 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		081C0DCD2DBB7AEB00D88EF4 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DCC2DBB7AEB00D88EF4 /* FirebaseAppCheck */; };
+		081C0DCF2DBB7AEB00D88EF4 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DCE2DBB7AEB00D88EF4 /* FirebaseAppDistribution-Beta */; };
+		081C0DD12DBB7AEB00D88EF4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DD02DBB7AEB00D88EF4 /* FirebaseAuth */; };
+		081C0DD32DBB7AEB00D88EF4 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DD22DBB7AEB00D88EF4 /* FirebaseAuthCombine-Community */; };
+		081C0DD52DBB7AEB00D88EF4 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DD42DBB7AEB00D88EF4 /* FirebaseCore */; };
+		081C0DD72DBB7AEB00D88EF4 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DD62DBB7AEB00D88EF4 /* FirebaseCrashlytics */; };
+		081C0DD92DBB7AEB00D88EF4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DD82DBB7AEB00D88EF4 /* FirebaseDatabase */; };
+		081C0DDB2DBB7AEB00D88EF4 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DDA2DBB7AEB00D88EF4 /* FirebaseDynamicLinks */; };
+		081C0DDD2DBB7AEB00D88EF4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DDC2DBB7AEB00D88EF4 /* FirebaseFirestore */; };
+		081C0DDF2DBB7AEB00D88EF4 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DDE2DBB7AEB00D88EF4 /* FirebaseFirestoreCombine-Community */; };
+		081C0DE12DBB7AEB00D88EF4 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DE02DBB7AEB00D88EF4 /* FirebaseFunctions */; };
+		081C0DE32DBB7AEB00D88EF4 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DE22DBB7AEB00D88EF4 /* FirebaseFunctionsCombine-Community */; };
+		081C0DE52DBB7AEB00D88EF4 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DE42DBB7AEB00D88EF4 /* FirebaseInAppMessaging-Beta */; };
+		081C0DE72DBB7AEB00D88EF4 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DE62DBB7AEB00D88EF4 /* FirebaseInstallations */; };
+		081C0DE92DBB7AEB00D88EF4 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DE82DBB7AEB00D88EF4 /* FirebaseMLModelDownloader */; };
+		081C0DEB2DBB7AEB00D88EF4 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DEA2DBB7AEB00D88EF4 /* FirebaseMessaging */; };
+		081C0DED2DBB7AEB00D88EF4 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DEC2DBB7AEB00D88EF4 /* FirebasePerformance */; };
+		081C0DEF2DBB7AEB00D88EF4 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DEE2DBB7AEB00D88EF4 /* FirebaseRemoteConfig */; };
+		081C0DF12DBB7AEB00D88EF4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DF02DBB7AEB00D88EF4 /* FirebaseStorage */; };
+		081C0DF32DBB7AEB00D88EF4 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DF22DBB7AEB00D88EF4 /* FirebaseStorageCombine-Community */; };
+		081C0DF52DBB7AEB00D88EF4 /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = 081C0DF42DBB7AEB00D88EF4 /* FirebaseVertexAI */; };
+		08AB6A542D7AED5600099CF0 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 08AB6A532D7AED5600099CF0 /* DGCharts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08ECF6052D6F5D2400D3C256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08ECF5E62D6F5D2100D3C256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08ECF5ED2D6F5D2100D3C256;
+			remoteInfo = "Timex App";
+		};
+		08ECF60F2D6F5D2400D3C256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08ECF5E62D6F5D2100D3C256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08ECF5ED2D6F5D2100D3C256;
+			remoteInfo = "Timex App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08CD91DD2D7ABE8B0011D3AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08ECF5EE2D6F5D2100D3C256 /* Timex App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timex App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08ECF6042D6F5D2400D3C256 /* Timex AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timex AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08ECF60E2D6F5D2400D3C256 /* Timex AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timex AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		08ECF6162D6F5D2400D3C256 /* Exceptions for "Timex App" folder in "Timex App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				Untitled.swift,
+			);
+			target = 08ECF5ED2D6F5D2100D3C256 /* Timex App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		08ECF5F02D6F5D2100D3C256 /* Timex App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				08ECF6162D6F5D2400D3C256 /* Exceptions for "Timex App" folder in "Timex App" target */,
+			);
+			path = "Timex App";
+			sourceTree = "<group>";
+		};
+		08ECF6072D6F5D2400D3C256 /* Timex AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Timex AppTests";
+			sourceTree = "<group>";
+		};
+		08ECF6112D6F5D2400D3C256 /* Timex AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Timex AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08ECF5EB2D6F5D2100D3C256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081C0DC72DBB7AEB00D88EF4 /* FirebaseAnalytics in Frameworks */,
+				081C0DDD2DBB7AEB00D88EF4 /* FirebaseFirestore in Frameworks */,
+				081C0DC92DBB7AEB00D88EF4 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				081C0DE72DBB7AEB00D88EF4 /* FirebaseInstallations in Frameworks */,
+				08AB6A542D7AED5600099CF0 /* DGCharts in Frameworks */,
+				081C0DCD2DBB7AEB00D88EF4 /* FirebaseAppCheck in Frameworks */,
+				081C0DE52DBB7AEB00D88EF4 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				081C0DCB2DBB7AEB00D88EF4 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				081C0DD12DBB7AEB00D88EF4 /* FirebaseAuth in Frameworks */,
+				081C0DE32DBB7AEB00D88EF4 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				081C0DF32DBB7AEB00D88EF4 /* FirebaseStorageCombine-Community in Frameworks */,
+				081C0DCF2DBB7AEB00D88EF4 /* FirebaseAppDistribution-Beta in Frameworks */,
+				081C0DF52DBB7AEB00D88EF4 /* FirebaseVertexAI in Frameworks */,
+				081C0DF12DBB7AEB00D88EF4 /* FirebaseStorage in Frameworks */,
+				081C0DEF2DBB7AEB00D88EF4 /* FirebaseRemoteConfig in Frameworks */,
+				081C0DD72DBB7AEB00D88EF4 /* FirebaseCrashlytics in Frameworks */,
+				081C0DEB2DBB7AEB00D88EF4 /* FirebaseMessaging in Frameworks */,
+				081C0DE92DBB7AEB00D88EF4 /* FirebaseMLModelDownloader in Frameworks */,
+				081C0DED2DBB7AEB00D88EF4 /* FirebasePerformance in Frameworks */,
+				081C0DD92DBB7AEB00D88EF4 /* FirebaseDatabase in Frameworks */,
+				081C0DD52DBB7AEB00D88EF4 /* FirebaseCore in Frameworks */,
+				081C0DD32DBB7AEB00D88EF4 /* FirebaseAuthCombine-Community in Frameworks */,
+				081C0DE12DBB7AEB00D88EF4 /* FirebaseFunctions in Frameworks */,
+				081C0DDB2DBB7AEB00D88EF4 /* FirebaseDynamicLinks in Frameworks */,
+				081C0DDF2DBB7AEB00D88EF4 /* FirebaseFirestoreCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ECF6012D6F5D2400D3C256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ECF60B2D6F5D2400D3C256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CD91D82D7ABE560011D3AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08ECF5E52D6F5D2100D3C256 = {
+			isa = PBXGroup;
+			children = (
+				08ECF5F02D6F5D2100D3C256 /* Timex App */,
+				08ECF6072D6F5D2400D3C256 /* Timex AppTests */,
+				08ECF6112D6F5D2400D3C256 /* Timex AppUITests */,
+				08CD91D82D7ABE560011D3AE /* Frameworks */,
+				08ECF5EF2D6F5D2100D3C256 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08ECF5EF2D6F5D2100D3C256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08ECF5EE2D6F5D2100D3C256 /* Timex App.app */,
+				08ECF6042D6F5D2400D3C256 /* Timex AppTests.xctest */,
+				08ECF60E2D6F5D2400D3C256 /* Timex AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08ECF5ED2D6F5D2100D3C256 /* Timex App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08ECF6172D6F5D2400D3C256 /* Build configuration list for PBXNativeTarget "Timex App" */;
+			buildPhases = (
+				08ECF5EA2D6F5D2100D3C256 /* Sources */,
+				08ECF5EB2D6F5D2100D3C256 /* Frameworks */,
+				08ECF5EC2D6F5D2100D3C256 /* Resources */,
+				08CD91DD2D7ABE8B0011D3AE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				08ECF5F02D6F5D2100D3C256 /* Timex App */,
+			);
+			name = "Timex App";
+			packageProductDependencies = (
+				08AB6A532D7AED5600099CF0 /* DGCharts */,
+				081C0DC62DBB7AEB00D88EF4 /* FirebaseAnalytics */,
+				081C0DC82DBB7AEB00D88EF4 /* FirebaseAnalyticsOnDeviceConversion */,
+				081C0DCA2DBB7AEB00D88EF4 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				081C0DCC2DBB7AEB00D88EF4 /* FirebaseAppCheck */,
+				081C0DCE2DBB7AEB00D88EF4 /* FirebaseAppDistribution-Beta */,
+				081C0DD02DBB7AEB00D88EF4 /* FirebaseAuth */,
+				081C0DD22DBB7AEB00D88EF4 /* FirebaseAuthCombine-Community */,
+				081C0DD42DBB7AEB00D88EF4 /* FirebaseCore */,
+				081C0DD62DBB7AEB00D88EF4 /* FirebaseCrashlytics */,
+				081C0DD82DBB7AEB00D88EF4 /* FirebaseDatabase */,
+				081C0DDA2DBB7AEB00D88EF4 /* FirebaseDynamicLinks */,
+				081C0DDC2DBB7AEB00D88EF4 /* FirebaseFirestore */,
+				081C0DDE2DBB7AEB00D88EF4 /* FirebaseFirestoreCombine-Community */,
+				081C0DE02DBB7AEB00D88EF4 /* FirebaseFunctions */,
+				081C0DE22DBB7AEB00D88EF4 /* FirebaseFunctionsCombine-Community */,
+				081C0DE42DBB7AEB00D88EF4 /* FirebaseInAppMessaging-Beta */,
+				081C0DE62DBB7AEB00D88EF4 /* FirebaseInstallations */,
+				081C0DE82DBB7AEB00D88EF4 /* FirebaseMLModelDownloader */,
+				081C0DEA2DBB7AEB00D88EF4 /* FirebaseMessaging */,
+				081C0DEC2DBB7AEB00D88EF4 /* FirebasePerformance */,
+				081C0DEE2DBB7AEB00D88EF4 /* FirebaseRemoteConfig */,
+				081C0DF02DBB7AEB00D88EF4 /* FirebaseStorage */,
+				081C0DF22DBB7AEB00D88EF4 /* FirebaseStorageCombine-Community */,
+				081C0DF42DBB7AEB00D88EF4 /* FirebaseVertexAI */,
+			);
+			productName = "Timex App";
+			productReference = 08ECF5EE2D6F5D2100D3C256 /* Timex App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08ECF6032D6F5D2400D3C256 /* Timex AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08ECF61C2D6F5D2400D3C256 /* Build configuration list for PBXNativeTarget "Timex AppTests" */;
+			buildPhases = (
+				08ECF6002D6F5D2400D3C256 /* Sources */,
+				08ECF6012D6F5D2400D3C256 /* Frameworks */,
+				08ECF6022D6F5D2400D3C256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08ECF6062D6F5D2400D3C256 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				08ECF6072D6F5D2400D3C256 /* Timex AppTests */,
+			);
+			name = "Timex AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Timex AppTests";
+			productReference = 08ECF6042D6F5D2400D3C256 /* Timex AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08ECF60D2D6F5D2400D3C256 /* Timex AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08ECF61F2D6F5D2400D3C256 /* Build configuration list for PBXNativeTarget "Timex AppUITests" */;
+			buildPhases = (
+				08ECF60A2D6F5D2400D3C256 /* Sources */,
+				08ECF60B2D6F5D2400D3C256 /* Frameworks */,
+				08ECF60C2D6F5D2400D3C256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08ECF6102D6F5D2400D3C256 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				08ECF6112D6F5D2400D3C256 /* Timex AppUITests */,
+			);
+			name = "Timex AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Timex AppUITests";
+			productReference = 08ECF60E2D6F5D2400D3C256 /* Timex AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08ECF5E62D6F5D2100D3C256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					08ECF5ED2D6F5D2100D3C256 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					08ECF6032D6F5D2400D3C256 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 08ECF5ED2D6F5D2100D3C256;
+					};
+					08ECF60D2D6F5D2400D3C256 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 08ECF5ED2D6F5D2100D3C256;
+					};
+				};
+			};
+			buildConfigurationList = 08ECF5E92D6F5D2100D3C256 /* Build configuration list for PBXProject "Timex App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08ECF5E52D6F5D2100D3C256;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				08AB6A522D7AED5600099CF0 /* XCRemoteSwiftPackageReference "Charts" */,
+				081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 08ECF5EF2D6F5D2100D3C256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08ECF5ED2D6F5D2100D3C256 /* Timex App */,
+				08ECF6032D6F5D2400D3C256 /* Timex AppTests */,
+				08ECF60D2D6F5D2400D3C256 /* Timex AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08ECF5EC2D6F5D2100D3C256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ECF6022D6F5D2400D3C256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ECF60C2D6F5D2400D3C256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08ECF5EA2D6F5D2100D3C256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ECF6002D6F5D2400D3C256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ECF60A2D6F5D2400D3C256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08ECF6062D6F5D2400D3C256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08ECF5ED2D6F5D2100D3C256 /* Timex App */;
+			targetProxy = 08ECF6052D6F5D2400D3C256 /* PBXContainerItemProxy */;
+		};
+		08ECF6102D6F5D2400D3C256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08ECF5ED2D6F5D2100D3C256 /* Timex App */;
+			targetProxy = 08ECF60F2D6F5D2400D3C256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08ECF6182D6F5D2400D3C256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Timex App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TIMEx;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DAJ.Timex-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08ECF6192D6F5D2400D3C256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Timex App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TIMEx;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DAJ.Timex-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08ECF61A2D6F5D2400D3C256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08ECF61B2D6F5D2400D3C256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08ECF61D2D6F5D2400D3C256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DAJ.Timex-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timex App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timex App";
+			};
+			name = Debug;
+		};
+		08ECF61E2D6F5D2400D3C256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DAJ.Timex-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timex App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timex App";
+			};
+			name = Release;
+		};
+		08ECF6202D6F5D2400D3C256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DAJ.Timex-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Timex App";
+			};
+			name = Debug;
+		};
+		08ECF6212D6F5D2400D3C256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DAJ.Timex-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Timex App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08ECF5E92D6F5D2100D3C256 /* Build configuration list for PBXProject "Timex App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ECF61A2D6F5D2400D3C256 /* Debug */,
+				08ECF61B2D6F5D2400D3C256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08ECF6172D6F5D2400D3C256 /* Build configuration list for PBXNativeTarget "Timex App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ECF6182D6F5D2400D3C256 /* Debug */,
+				08ECF6192D6F5D2400D3C256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08ECF61C2D6F5D2400D3C256 /* Build configuration list for PBXNativeTarget "Timex AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ECF61D2D6F5D2400D3C256 /* Debug */,
+				08ECF61E2D6F5D2400D3C256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08ECF61F2D6F5D2400D3C256 /* Build configuration list for PBXNativeTarget "Timex AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ECF6202D6F5D2400D3C256 /* Debug */,
+				08ECF6212D6F5D2400D3C256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		08AB6A522D7AED5600099CF0 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		081C0DC62DBB7AEB00D88EF4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		081C0DC82DBB7AEB00D88EF4 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		081C0DCA2DBB7AEB00D88EF4 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		081C0DCC2DBB7AEB00D88EF4 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		081C0DCE2DBB7AEB00D88EF4 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		081C0DD02DBB7AEB00D88EF4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		081C0DD22DBB7AEB00D88EF4 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		081C0DD42DBB7AEB00D88EF4 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		081C0DD62DBB7AEB00D88EF4 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		081C0DD82DBB7AEB00D88EF4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		081C0DDA2DBB7AEB00D88EF4 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		081C0DDC2DBB7AEB00D88EF4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		081C0DDE2DBB7AEB00D88EF4 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		081C0DE02DBB7AEB00D88EF4 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		081C0DE22DBB7AEB00D88EF4 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		081C0DE42DBB7AEB00D88EF4 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		081C0DE62DBB7AEB00D88EF4 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		081C0DE82DBB7AEB00D88EF4 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		081C0DEA2DBB7AEB00D88EF4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		081C0DEC2DBB7AEB00D88EF4 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		081C0DEE2DBB7AEB00D88EF4 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		081C0DF02DBB7AEB00D88EF4 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		081C0DF22DBB7AEB00D88EF4 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		081C0DF42DBB7AEB00D88EF4 /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 081C0DC52DBB7AEB00D88EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+		08AB6A532D7AED5600099CF0 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08AB6A522D7AED5600099CF0 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08ECF5E62D6F5D2100D3C256 /* Project object */;
+}
